@@ -5,13 +5,15 @@ import "firebase/auth"
 // https://firebase.google.com/docs/web/setup#available-libraries
 
 // Your web app's Firebase configuration
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: "AIzaSyCRIQfz9cbtyLPRnSnnhOKN6IePyJtoiZg",
-  authDomain: "react-disney-plus-app.firebaseapp.com",
-  projectId: "react-disney-plus-app",
-  storageBucket: "react-disney-plus-app.appspot.com",
-  messagingSenderId: "17555251393",
-  appId: "1:17555251393:web:672c0357240c85d4b9f440"
+  apiKey: "AIzaSyDn7DH2xV6Xg3jmM8acDcHBBrKDe5N-OpE",
+  authDomain: "react-disney-plus-app-ab7dc.firebaseapp.com",
+  projectId: "react-disney-plus-app-ab7dc",
+  storageBucket: "react-disney-plus-app-ab7dc.appspot.com",
+  messagingSenderId: "342075283902",
+  appId: "1:342075283902:web:e5c8201a690c6341a881ef",
+  measurementId: "G-TSJRRTYSEY"
 };
 
 // Initialize Firebase

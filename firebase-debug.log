@@ -1,0 +1,78 @@
+[debug] [2023-08-22T02:00:14.909Z] ----------------------------------------------------------------------
+[debug] [2023-08-22T02:00:14.910Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\admin\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2023-08-22T02:00:14.911Z] CLI Version:   12.4.8
+[debug] [2023-08-22T02:00:14.911Z] Platform:      win32
+[debug] [2023-08-22T02:00:14.911Z] Node Version:  v18.16.0
+[debug] [2023-08-22T02:00:14.912Z] Time:          Tue Aug 22 2023 11:00:14 GMT+0900 (대한민국 표준시)
+[debug] [2023-08-22T02:00:14.912Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-08-22T02:00:14.918Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-08-22T02:00:14.919Z] > authorizing via signed-in user (sgustjd1234@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  E:\study\fastcampus\react-disney-app\react-disney-app
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  If you want to create a project in a Google Cloud organization or folder, please use "firebase projects:create" instead, and return to this command when you've created the project. 
+[debug] [2023-08-22T02:01:05.029Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects [none]
+[debug] [2023-08-22T02:01:05.029Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"projectId":"disney-app","name":"build"}
+[debug] [2023-08-22T02:01:06.916Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects 409
+[debug] [2023-08-22T02:01:06.916Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"error":{"code":409,"message":"Requested entity already exists","status":"ALREADY_EXISTS"}}
+[debug] [2023-08-22T02:01:07.089Z] FirebaseError: HTTP Error: 409, Requested entity already exists
+    at responseToError (C:\Users\admin\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:49:12)
+    at RetryOperation._fn (C:\Users\admin\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:285:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[error] 
+[error] Error: Failed to create project because there is already a project with ID disney-app. Please try again with a unique project ID.
+[debug] [2023-08-22T02:04:29.098Z] ----------------------------------------------------------------------
+[debug] [2023-08-22T02:04:29.100Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\admin\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2023-08-22T02:04:29.100Z] CLI Version:   12.4.8
+[debug] [2023-08-22T02:04:29.100Z] Platform:      win32
+[debug] [2023-08-22T02:04:29.100Z] Node Version:  v18.16.0
+[debug] [2023-08-22T02:04:29.101Z] Time:          Tue Aug 22 2023 11:04:29 GMT+0900 (대한민국 표준시)
+[debug] [2023-08-22T02:04:29.102Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-08-22T02:04:29.108Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-08-22T02:04:29.108Z] > authorizing via signed-in user (sgustjd1234@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  E:\study\fastcampus\react-disney-app\react-disney-app
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  If you want to create a project in a Google Cloud organization or folder, please use "firebase projects:create" instead, and return to this command when you've created the project. 
+[debug] [2023-08-22T02:04:39.356Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects [none]
+[debug] [2023-08-22T02:04:39.356Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"projectId":"disney-app","name":"build"}
+[debug] [2023-08-22T02:04:40.224Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects 409
+[debug] [2023-08-22T02:04:40.225Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"error":{"code":409,"message":"Requested entity already exists","status":"ALREADY_EXISTS"}}
+[debug] [2023-08-22T02:04:40.390Z] FirebaseError: HTTP Error: 409, Requested entity already exists
+    at responseToError (C:\Users\admin\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:49:12)
+    at RetryOperation._fn (C:\Users\admin\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:285:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[error] 
+[error] Error: Failed to create project because there is already a project with ID disney-app. Please try again with a unique project ID.
